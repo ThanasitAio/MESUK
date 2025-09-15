@@ -5,13 +5,13 @@
 ### เชื่อมต่อฐานข้อมูล frontend
 ``` php
 <?php
-  // include ที่ต้องมี
+  	// include ที่ต้องมี
 	include("connect.php"); //เชื่อมต่อฐานข้อมูล
 	include("Function/runnig.php");
 	include("Function/SQLADMIN.php");
 	include("Function/showdate.php");
 
-  $tUserName=$_SESSION['USERLOGIN']; // ชื่อผู้ใช้
+  	$tUserName=$_SESSION['USERLOGIN']; // ชื่อผู้ใช้
 
 ?>
 ```
