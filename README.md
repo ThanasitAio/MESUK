@@ -22,3 +22,13 @@
 include("../connect.php");
 ?>
 ```
+
+### Query แสดงข้อมูล นับจำนวน
+``` php
+$objQuery = mysql_query($strSQL);
+$Num_Rows = mysql_num_rows($objQuery);
+```
+
+
+
+
